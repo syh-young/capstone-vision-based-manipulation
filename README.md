@@ -2,7 +2,9 @@
 **Capstone Design Project | ROS 2 · MoveIt 2 · Vision**
 
 <p align="center">
-  ![캡스톤 결과 사진](https://github.com/user-attachments/assets/23c18b80-5ad0-49c4-96b7-690f82588f69)
+  
+<img width="1536" height="2048" alt="image" src="https://github.com/user-attachments/assets/779d0450-6be5-4c55-a758-39daadc8f18d" />
+
 
 
 </p>
