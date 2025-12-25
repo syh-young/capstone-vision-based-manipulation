@@ -130,14 +130,34 @@ Camera Input
 
 ---
 
-## 7. Project Structure
-├── moveo_description/ # URDF and robot model
-├── moveo_moveit/ # MoveIt configuration
-├── vision_node/ # YOLO and depth processing
-├── coordinate_tf/ # Coordinate transformation nodes
-├── control_node/ # Manipulator control logic
-├── images/ # Robot and result images
-└── README.md
+## 7. 프로젝트 구조
+
+- **moveo_description/**
+  - 로봇 URDF 모델 및 링크/조인트 정의 파일
+
+- **moveo_moveit/**
+  - MoveIt 기반 모션 플래닝 설정
+  - 역기구학 및 경로 계획 파라미터
+
+- **vision_node/**
+  - YOLO 기반 객체 인식 노드
+  - Depth 정보를 이용한 객체 위치 추정
+
+- **coordinate_tf/**
+  - 카메라 좌표계에서 로봇 기준 좌표계로의 변환
+  - ROS TF 프레임 관리
+
+- **control_node/**
+  - 로봇 매니퓰레이터 제어 로직
+  - 인식 결과 기반 자율 동작 실행
+
+- **images/**
+  - 로봇 하드웨어 사진
+  - 실험 결과 및 시연 이미지
+
+- **README.md**
+  - 프로젝트 전체 설명 및 사용 방법
+
 
 
 ---
